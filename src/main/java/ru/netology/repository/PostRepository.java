@@ -2,9 +2,10 @@ package ru.netology.repository;
 
 import ru.netology.exception.NotFoundException;
 import ru.netology.model.Post;
-
+import org.springframework.stereotype.Repository;
 import java.util.*;
 
+@Repository
 public class PostRepository {
 
   private Map<Long, Post> posts;
